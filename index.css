@@ -1,0 +1,232 @@
+
+.container {
+    margin: 20px;
+    padding: 20px; 
+}
+
+
+.side-by-side {
+    display: flex;
+}
+
+.side-by-side a {
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.side-by-side a:last-child {
+    margin-left: auto;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*cardbeginshere*/
+
+.card-container {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    flex: 1;
+    margin: 5px;
+    
+}
+
+.card .image-container {
+    position: relative;
+    margin-top: 10px;
+}
+
+.card .image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card .image-container .button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)); 
+    border-radius: 8px; 
+    color: white; 
+    border: none; 
+    padding: 5px;
+}
+
+.cardbackground {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.imagetext {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    margin-left: 10px; 
+}
+
+.text h3, .text p {
+    margin: 1px; 
+}
+
+
+/*secondsetofcard*/
+
+.card-container2 {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+.card2 {
+    flex: 1;
+    margin: 5px;
+    
+}
+
+.card2 .image-container2 {
+    position: relative;
+    margin-top: 10px;
+}
+
+.card2 .image-container2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card2 .image-container2 .button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)); 
+    border-radius: 8px; 
+    color: white; 
+    border: none; 
+    padding: 5px;
+}
+
+
+/*nextsection*/
+.nextsection{
+    margin-top: 70px;
+}
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    position: relative; 
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.image-container {
+    position: relative;
+}
+
+.image-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)); 
+    border-radius: 8px; 
+    color: white; 
+    border: none; 
+    padding: 5px;
+}
+
+.image-text {
+    position: absolute;
+    top: 70px; 
+    left: 10px; 
+    padding: 10px;
+    color: white;
+}
+
+
+/* footersection */
+
+.footer {
+    background-color: black;
+    padding: 30px ;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.footercontainer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    max-width: 250px;
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+}
+
+.footer-column p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+.footer-column a {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footerbottom{
+    background-color: rgb(54, 52, 52);
+    padding: 12px;
+    color: white;
+}
